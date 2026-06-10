@@ -1,29 +1,31 @@
-
-<DOCTYPE html>
-  <html lang="pt-br">
-    <head>
-      <title>Portfolio</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-     <header>
-      <h1><span>Portfolio de criação de página HTML e CSS </span></h1>
-     </header>
-     <main>
-        <p>Essa página é uma forma de nivelamento para HTML, CSS e Javascript.</p>
-         <h2>Tentando programar em:</h2>
-           <ul>
-             <li>Começando com <strong>HTML</strong>;</li>
-             <li>Depois vamos para <strong>CSS</strong>;</li>
-             <li>Finalizamos com <strong>Javascript</strong>.</li>
-         </ul>
-       </main>
-      <img src="https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb26tpc3ijt5f5zwub9t8.png">
-    </body>
-    <footer>
-      <p>Para mais informações, acesse o curso gratuito na <strong>SUJEITO PROGRAMADOR</strong> clicando no botão abaixo:</p>
-      <a href="https://sujeitoprogramador.com/minicurso/">
-        <button>CURSO GRATUITO</button>
-      </a>
-    </footer>
-  </html>
+body{
+  background: #FFB6C1;
+    strong{
+      color:#FF1493 ;
+  }
+  h1{
+    color: #FF1493 ;
+    text-align: center;
+    span{
+      border: 1px solid  
+      padding: 10px;
+    }
+  }
+  p{
+      text-align: center;
+    }
+    img {
+      display: block;
+      widht: 100%;
+      heith: auto;
+      max-width 600px;
+      magin-left: auto;
+      margin-right: auto;  
+}
+    footer{
+      text-align: center;
+      strong{
+        color:blue;
+      }
+  }
+}
