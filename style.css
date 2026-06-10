@@ -14,12 +14,12 @@ body{
   p{
       text-align: center;
     }
-    img {
+    img{
       display: block;
-      widht: 100%;
-      heith: auto;
-      max-width 600px;
-      magin-left: auto;
+      width: 100%;
+      heigth: auto;
+      max-width: 600px;
+      margin-left: auto;
       margin-right: auto;  
 }
     footer{
